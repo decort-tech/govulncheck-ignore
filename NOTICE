@@ -1,0 +1,7 @@
+govulncheck-ignore
+Copyright 2026 dc-tec contributors
+
+This project originated from the govulncheck wrapper helpers maintained in:
+
+- https://github.com/dc-tec/openbao-operator
+- https://github.com/dc-tec/openbao-observability
