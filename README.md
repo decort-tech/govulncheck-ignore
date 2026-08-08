@@ -14,10 +14,14 @@ Install `govulncheck` and this wrapper:
 
 ```sh
 go install golang.org/x/vuln/cmd/govulncheck@latest
-go install github.com/dc-tec/govulncheck-ignore@latest
+go install github.com/decort-tech/govulncheck-ignore/v2@latest
 ```
 
 Pin both versions in CI rather than installing `@latest` there.
+
+Version 2 uses the `github.com/decort-tech/govulncheck-ignore/v2` module path.
+Version 1 remains available from `github.com/dc-tec/govulncheck-ignore` but
+does not receive new releases.
 
 ## Ignore policy
 
